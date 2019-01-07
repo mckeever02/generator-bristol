@@ -7,13 +7,13 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
-      short_name: 'Super PWA',
-      description: 'A super website made with love',
+      name: 'Generator Bristol',
+      short_name: 'Generator',
+      description: '30,611 sq ft of outstanding, contemporary office space. Powering up in 2019',
       orientation: 'portrait',
       display: 'standalone',
       start_url: '/',
-      theme_color: '#c0ffee',
+      theme_color: '#FF4438',
       background_color: '#ffffff',
       icons: [
         {
