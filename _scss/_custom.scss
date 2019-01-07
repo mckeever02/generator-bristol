@@ -1,0 +1,94 @@
+body {
+    background-color: $light;
+}
+.main {
+    max-width: 1500px;
+    margin: auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25%;
+}
+
+.grid-item {
+    min-height: 350px;
+    padding: $spacer*3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item-1 {
+    grid-column: 1 / span 2;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+
+.grid-item-2 {
+    grid-column: 3 / span 1;
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+}
+
+.grid-item-3 {
+    grid-column: 4 / span 1;
+    -ms-grid-column: 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+}
+
+.grid-item-4 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+    background-image: url('/assets/images/generator-render-square.jpg');
+}
+
+.grid-item-11 {
+    grid-column: 3 / span 2;
+}
+
+.grid-item-12 {
+    background-image: url('/assets/images/bristol-old-warehouse.jpg');
+}
+
+.grid-item-14 {
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 2;
+    background-image: url('/assets/images/generator-render-square-2.jpg');
+}
+
+.grid-item-15 {
+    grid-column: 1 / span 2;
+}
+
+.grid-item-16 {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 2;
+    background-image: url('/assets/images/map-square.png');
+}
+
+.grid-item-17 {
+    grid-column: 3 / span 2;
+    grid-row: 7 / span 1;
+}
+
+.grid-item-18 {
+    grid-column: 3 / span 1;
+    grid-row: 8 / span 1;
+}
+
+.grid-item-22 {
+    grid-column: 3 / span 2;
+    background-image: url('/assets/images/bristol-markets.jpg');
+}
+
+.grid-item--icon {
+    width: 200px;
+}
+
+.logo {
+    height: 60px;
+}
+
