@@ -20,6 +20,8 @@
 
 .bg-home {
   background-image: url('/assets/images/header-home.jpg');
+  background-blend-mode: multiply;
+  background-color: rgba($dark, .78);
 }
 
 .bg-cover {
