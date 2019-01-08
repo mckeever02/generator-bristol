@@ -22,6 +22,10 @@ module.exports = {
       from: path.resolve('_images'),
       to: 'images/',
     }]),
+    new CopyWebpackPlugin([{
+      from: path.resolve('_fonts'),
+      to: 'fonts/',
+    }]),
   ],
   module: {
     rules: [

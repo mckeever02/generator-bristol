@@ -55,6 +55,7 @@ exclude:
   - vendor
   - _src
   - _images
+  - _fonts
   - LICENSE
   - package.json
   - README.md
