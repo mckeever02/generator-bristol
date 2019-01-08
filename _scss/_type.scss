@@ -139,52 +139,51 @@ mark,
     content: "\2014\00A0"; // em dash, nbsp
   }
 }
+// .logo-title {
+//   font-size: 2.6rem;
+//   @include media-breakpoint-up(sm) {
+//     font-size: 4rem;
+//   }
+//   @include media-breakpoint-up(md) {
+//     font-size: 5.0rem;
+//   }
+//   @include media-breakpoint-up(lg) {
+//     font-size: 6.0rem;
+//   }
+//   @include media-breakpoint-up(xl) {
+//     font-size: 6.5rem;
+//   }
+// }
 
-.logo-title {
-  font-size: 2.6rem;
-  @include media-breakpoint-up(sm) {
-    font-size: 4rem;
-  }
-  @include media-breakpoint-up(md) {
-    font-size: 5.0rem;
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: 6.0rem;
-  }
-  @include media-breakpoint-up(xl) {
-    font-size: 6.5rem;
-  }
-}
+// .logo-subtitle {
+//   font-size: $h3-font-size;
+//   @include media-breakpoint-up(sm) {
+//     font-size: $h1-font-size;
+//   }
+//   @include media-breakpoint-up(md) {
+//     font-size: 3rem
+//   }
+//   @include media-breakpoint-up(lg) {
+//     font-size: 4rem;
+//   }
+// }
 
-.logo-subtitle {
-  font-size: $h3-font-size;
-  @include media-breakpoint-up(sm) {
-    font-size: $h1-font-size;
-  }
-  @include media-breakpoint-up(md) {
-    font-size: 3rem
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: 4rem;
-  }
-}
+// .footer-logo-title {
+//   font-size: 2.2rem;
+//   @include media-breakpoint-up(md) {
+//     font-size: 3.2rem;
+//   }
+//   @include media-breakpoint-up(lg) {
+//     font-size: 4.2rem;
+//   }
+// }
 
-.footer-logo-title {
-  font-size: 2.2rem;
-  @include media-breakpoint-up(md) {
-    font-size: 3.2rem;
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: 4.2rem;
-  }
-}
-
-.footer-logo-subtitle {
-  font-size: $h3-font-size;
-  @include media-breakpoint-up(md) {
-    font-size: $h2-font-size;
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: $h1-font-size;
-  }
-}
+// .footer-logo-subtitle {
+//   font-size: $h3-font-size;
+//   @include media-breakpoint-up(md) {
+//     font-size: $h2-font-size;
+//   }
+//   @include media-breakpoint-up(lg) {
+//     font-size: $h1-font-size;
+//   }
+// }

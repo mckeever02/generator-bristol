@@ -54,6 +54,16 @@ body {
     grid-column: 1 / span 2;
     grid-row: 7 / span 2;
     background-image: url('/assets/images/map-square.png');
+    background-size: cover;
+    background-position: top left;
+    padding: 0!important;
+    object-fit: fill;
+    img {
+        object-fit: fill;
+    }
+    @include media-breakpoint-up(sm) {
+        min-height: 600px!important;
+    }
 }
 
 .grid-item-17 {
@@ -211,16 +221,25 @@ body {
         max-width: 100px;
         min-width: auto;
     }
-    .footer-logo {
+    .footer-logo-castleforge {
         max-width: 200px;
     }
     .grid-item {
-        min-height: 250px;
+        min-height: 350px;
     }
 }
 
 .logo {
     height: 60px;
 }
+
+.footer-logo {
+
+}
+
+.header-logo {
+  max-width: 630px;
+}
+
 
 
