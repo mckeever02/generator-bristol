@@ -20,7 +20,7 @@ group :jekyll_plugins do
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
    gem 'octopress-minify-html'
-   gem 'jekyll-multiple-languages-plugin'
+   # gem 'jekyll-multiple-languages-plugin'
    gem 'amp-jekyll'
 end
 
