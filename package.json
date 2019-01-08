@@ -1,11 +1,10 @@
 {
-  "name": "jekyll-webpack-boilerplate",
+  "name": "Generator Bristol",
   "version": "1.0.0",
-  "description": "A boilerplate with Jekyll and Webpack to make the most performant static websites",
+  "description": "30,611 sq ft of outstanding, contemporary office space coming in 2019 to Bristol",
   "main": "src/index.js",
-  "repository": "git@github.com:sandoche/Jekyll-webpack-boilerplate.git",
-  "author": "Sandoche Adittane <sandoche@gmail.com>",
-  "license": "MIT",
+  "repository": "https://github.com/mckeever02/generator-bristol.git",
+  "author": "Michael Mckeever <michael@mckvr.com>",
   "scripts": {
     "start": "npm run-script clean:project && webpack --env=dev --progress --profile --colors && concurrently \"webpack-dev-server --env=dev\" \"bundle exec jekyll serve\"",
     "build:optim": "npm run-script clean:project && cross-env NODE_ENV=production webpack --env=prod --progress --profile --colors && webpack --env=optim  --progress --profile --colors && cross-env JEKYLL_ENV=production bundle exec jekyll build",
