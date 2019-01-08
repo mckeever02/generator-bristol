@@ -124,7 +124,87 @@ body {
     .grid-item-3, .grid-item-7 {
         grid-column: 3 / span 2;
     }
-    .grid-item-21, .grid-item-8, .grid-item-9, .grid-item-19, .grid-item-20 {
+    .grid-item-4, .grid-item-16 {
+        grid-row: auto;
+    }
+    .grid-item-4 {
+        grid-row: 2;
+    }
+    .grid-item-5 {
+        grid-row: 3;
+    }
+    .grid-item-2, .grid-item-3 {
+        grid-row: 4;
+    }
+    .grid-item-14 {
+        grid-row: 5;
+    }
+    .grid-item-6, .grid-item-7 {
+        grid-row: 6;
+    }
+    .grid-item-12 {
+        grid-row: 7;
+    }
+    .grid-item-11 {
+        grid-row: 8;
+    }
+    .grid-item-10 {
+        grid-row: 9;
+    }
+    .grid-item-13 {
+        grid-row: 10;
+    }
+
+
+    .grid-item-22 {
+        grid-row: 11;
+    }
+    .grid-item-15 {
+        grid-row: 12;
+    }
+    .grid-item-17 {
+        grid-row: 13;
+    }
+    .grid-item-16 {
+        grid-row: 14;
+    }
+    .grid-item-18 {
+        grid-row: 15;
+    }
+    .grid-item-19, .grid-item-21 {
+        grid-row: 16;
+    }
+
+
+    // .grid-item-2, .grid-item-3 {
+    //     grid-row: 4;
+    // }
+    // .grid-item-11 {
+    //     grid-row: 8;
+    // }
+    // .grid-item-10 {
+    //     grid-row: 9;
+    // }
+    //  .grid-item-22 {
+    //     grid-row: 11;
+    // }
+
+    // .grid-item-16 {
+    //     grid-row: 13 
+    // }
+    // .grid-item-18 {
+    //     grid-row: 15;
+    // }
+    .grid-item-21 {
+        grid-column: 3 / span 2;
+    }
+    // .grid-item-6, .grid-item-7 {
+    //     grid-row: 6;
+    // }
+    // .grid-item-5 {
+    //     grid-row: 5;
+    // }
+    .grid-item-8, .grid-item-9, .grid-item-20 {
         display: none;
     }
     .grid-item--icon {
