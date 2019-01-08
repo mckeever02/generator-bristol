@@ -72,7 +72,7 @@ body {
 }
 
 .grid-item--icon {
-    min-width: 200px;
+    width: 200px;
 }
 
 @include media-breakpoint-down(lg) {
@@ -90,6 +90,7 @@ body {
         grid-column: 1 / span 2;
     }
     .grid-item--icon {
+        width: auto;
         min-width: 150px;
     }
 }
@@ -111,25 +112,35 @@ body {
     }
 }
 @include media-breakpoint-down(sm) {
-    .grid {
-        display: block;
-    }
-    .grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4 {
+    // .grid {
+    //     display: block;
+    // }
+    .grid-item-1, .grid-item-4, .grid-item-14, .grid-item-16, .grid-item-17, .grid-item-18, .grid-item-5, .grid-item-10, .grid-item-11, .grid-item-12, .grid-item-13, .grid-item-22 {
         grid-column: 1 / span 4;
     }
+    .grid-item-2, .grid-item-6 {
+        grid-column: 1 / span 2;
+    }
+    .grid-item-3, .grid-item-7 {
+        grid-column: 3 / span 2;
+    }
+    .grid-item-21, .grid-item-8, .grid-item-9, .grid-item-19, .grid-item-20 {
+        display: none;
+    }
     .grid-item--icon {
-        max-width: 150px;
+        max-width: 100px;
+        min-width: auto;
+    }
+    .footer-logo {
+        max-width: 200px;
+    }
+    .grid-item {
+        min-height: 250px;
     }
 }
 
 .logo {
     height: 60px;
-}
-
-@include media-breakpoint-down(sm) {
-    .footer-logo {
-        max-width: 200px;
-    }
 }
 
 
