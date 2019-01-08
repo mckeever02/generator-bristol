@@ -43,9 +43,12 @@ h6, .h6 { font-size: $h6-font-size; }
   line-height: $display-line-height;
 }
 .display-3 {
-  font-size: $display3-size;
+  font-size: $h1-font-size;
   font-weight: $display3-weight;
   line-height: $display-line-height;
+  @include media-breakpoint-up(md) {
+    font-size: $display3-size;
+  }
 }
 .display-4 {
   font-size: $display4-size;
@@ -135,5 +138,8 @@ mark,
 }
 
 .page-title {
-  font-size: 6.5rem;
+  font-size: 2.6rem;
+  @include media-breakpoint-up(md) {
+    font-size: 6.5rem;
+  }
 }

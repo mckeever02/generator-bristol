@@ -25,20 +25,6 @@ body {
     -ms-grid-row-span: 2;
 }
 
-.grid-item-2 {
-    grid-column: 3 / span 1;
-    -ms-grid-column: 3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-}
-
-.grid-item-3 {
-    grid-column: 4 / span 1;
-    -ms-grid-column: 4;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-}
-
 .grid-item-4 {
     grid-column: 1 / span 2;
     grid-row: 2 / span 2;
@@ -85,10 +71,64 @@ body {
 }
 
 .grid-item--icon {
-    width: 200px;
+    min-width: 200px;
+}
+
+@include media-breakpoint-down(lg) {
+    .grid-item {
+        min-height: 300px;
+        padding: $spacer*2;
+    }
+    .grid-item-2 {
+        grid-column: 3 / span 2;
+    }
+    .grid-item-3, .grid-item-5, .grid-item-18, .grid-item-13 {
+         grid-column: 3 / span 2;
+    }
+    .grid-item-10, .grid-item-11, .grid-item-12, .grid-item-21 {
+        grid-column: 1 / span 2;
+    }
+    .grid-item--icon {
+        min-width: 150px;
+    }
+}
+@include media-breakpoint-down(md) {
+    .grid-item--icon {
+        max-width: 200px;
+    }
+
+    .grid-item-15 {
+        grid-column: 1 / span 4;
+    }
+
+    .grid-item-19 {
+        grid-column: 1 / span 2;
+    }
+
+    .grid-item-20 {
+        grid-column: 3 / span 2;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .grid {
+        display: block;
+    }
+    .grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4 {
+        grid-column: 1 / span 4;
+    }
+    .grid-item--icon {
+        max-width: 150px;
+    }
 }
 
 .logo {
     height: 60px;
 }
+
+@include media-breakpoint-down(sm) {
+    .footer-logo {
+        max-width: 200px;
+    }
+}
+
 
